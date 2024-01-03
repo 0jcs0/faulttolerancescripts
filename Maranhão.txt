@@ -1,0 +1,51 @@
+
+list of IPs. Total: 1
+	181.191.91.76
+
+list of IP ranges. Total: 1
+	181.191.91
+
+list of ASN(Autonomous System Number)
+	AS265994
+
+list of countries
+	BR
+
+list of cities
+
+Qname                    |TTL     |A Records  |Ranges  |ASNs  |Countries  |Cities  |NumServers   |
+delegaciaonline.policiacivil.ma.gov.br|    3595|          1|       1|     1|          1|       0|            1|
+
+---- Fast-Flux Scores ----
+Modified Thorsten/Holz: Score (-30) Classified ([92mClean[0m)
+Modified Jaroslaw/Patrycja: Score (7) Classified ([92mClean[0m)
+Rule Based: [92mClean[0m
+
+---- Geolocation ----
+--------------------------
+{'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'BR', 'country_code3': 'BRA', 'country_name': 'Brazil', 'continent': 'SA', 'region_code': '13', 'city': 'Sao Luis', 'latitude': -2.532499999999999, 'longitude': -44.2963, 'time_zone': 'America/Belem'}
+Universal Transverse Mercator (UTM): 2130
+Military Grid Reference System (MGRS): 27889066510335
+----  Moran's Index ----
+Timezones: Score (0) Classified ([92mClean[0m)
+UTM: Score (0) Classified ([92mClean[0m)
+MGRS: Score (0) Classified ([92mClean[0m)
+Combined: Score (0)
+----  Geary's Coefficient ----
+Timezones: Score (0) Classified ([92mClean[0m)
+UTM: Score (0) Classified ([92mClean[0m)
+MGRS: Score (0) Classified ([92mClean[0m)
+Combined: Score(0)
+
+---- URL Analysis ----
+[93mDomain: delegaciaonline.policiacivil.ma.gov.br[0m
+Entropy analysis (UNIGRAM): [92mBenign[0m, entropy: -3.799803, entropy_m: -2.701592
+Entropy analysis (BIGRAM): [92mBenign[0m, entropy: -0.644794, entropy_m: -0.193407
+Probability analysis (UNIGRAM): [92mBenign[0m, countm 0.000000, count 0.000000
+Probability analysis (BIGRAM): [92mBenign[0m, countm 0.000000, count 0.000000
+Total Variation analysis (UNIGRAM): [92mBenign[0m, pq 0.212645,boundary 0.050000
+Total Variation analysis (BIGRAM): [92mBenign[0m, pq 0.035910,boundary 0.004000
+Naive-Bayesian analysis (UNIGRAM): [92mBenign[0m, su -7.074067, pM 0.005000
+Naive-Bayesian analysis (BIGRAM): [92mBenign[0m, su -18.496274, pM 0.500000
+Bayesian analysis (UNIGRAM): [92mBenign[0m pq 0.000846, boundary 0.400000
+Bayesian analysis (BIGRAM): [92mBenign[0m pq  0.000000, boundary 0.400000
