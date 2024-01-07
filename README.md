@@ -5,7 +5,7 @@
 Development of an Ontology to Address the Phishing Technique in Computer Crime: A contribution to Public Security Security
 ```
 
-
+# Theoretical background 
 
 A theoretical background is essential to explain why virtual police stations lack preparation. At the dawn of the Internet, users accessed a server via IP addresses. IP addresses are also known as Internet Protocol Addresses.
 To simplify human-machine interaction, domains replaced IP addresses. In contemporary times, users type the domain into the browser, like _www.example.com_. This makes the experience more accessible and user-friendly.
@@ -20,3 +20,55 @@ If one of these servers fails, the others continue to offer the same service on 
 If one server stops working, the others will continue to provide the same service on the World Wide Web. Load balancing is also an advantage. If a server becomes overloaded, the servers can balance the workload. Response times are also reduced. The system chooses the server closest to the request by default. This optimizes the service's response time.
 
 We developed scripts to examine the number of servers at each police station.
+
+
+## Follow the instructions:
+
+### didactic repository for pattern recognition:
+
+-	It is not within the scope of this package to create the database. A third party has already created the learning repository. This structure follows the methodology of the ELM inventors.
+-	In the path **dataset/classification/diabetes_train**, you can see the structure of the repository as shown in Fig. 5. 
+    - **First column**: 1; the sample (row) belongs to the class. 0; the sample (row) belongs to the counter-class.
+    - **Other columns**: input attributes (neurons) referring to features of the target application. In this diabetes_train, there are 8 input neurons. For example, in the first sample (row), the first neuron has a value of 0.11764700.
+- At the end of learning (training), the ELM neural network will be capable of generalization. The ELM will classify the unseen sample as either class (1.0) or counter-class (0.0). An unseen sample refers to a sample not presented during training.
+
+### Authorial repository for pattern recognition:
+
+-	In the path **dataset/classification/Antivirus_Dataset_PE32_Citadel_mELM_format.csv**, you can see the structure of the repository as shown in Fig. 6.
+    - **First column**: The application's name. The applications and their respective raw analyses are in the [Citadel repository](https://github.com/DejavuForensics/Citadel).
+ 	- **Second column**: 1; the sample (row) belongs to the class malware (Citadel). 0; the sample (row) belongs to the counter-class (serious app).
+    - **Other columns**: input attributes (neurons) referring to features of the target application. In this diabetes_train, there are 430 input neurons. For example, in the first sample (row), the first neuron has a value of 0.
+- At the end of learning (training), the ELM neural network will be capable of generalization. The ELM will classify the unseen sample as either class (1.0) or counter-class (0.0). An unseen sample refers to a sample not presented during training.
+
+### Parameters of the extreme learning machine:
+
+-    -tr: learning repository reversed to the training phase.
+-    -ts: learning repository reversed to the testing phase.
+-    -tall: learning repository, this includes the training and testing phase.
+-    -ty:
+        -    1: classification (pattern recognition). 
+        -    0: regression (prediction: prediction with scientific-methodological rigor).
+-    -nh: number of neurons in the hidden layer.
+-    -af: activation function.
+        - Kernel Linear (default): linear
+        - Kernel mELM Dilation: dilation
+        - Kernel mELM Erosion: erosion
+        - Kernel Fuzzy-Erosion: fuzzy-erosion or fuzzy_erosion
+        - Kernel Fuzzy-Dilation: fuzzy-dilation ou fuzzy\_dilation
+        - Kernel Bitwise-Erosion: bitwise-erosion ou bitwise\_erosion
+        - Kernel Bitwise-Dilation: bitwise-dilation ou bitwise\_dilation
+        - Kernel Sigmoid: sig or sigmoid
+        - Kernel Sine: sin or sine
+        - Kernel Hard Limit: hardlim
+        - Kernel Triangular Basis Transfer Function: tribas
+        - Kernel Radial Basis Function: radbas
+-    -sd: random number generator seed.
+-    -v: verbose output.
+-    In the console, use the extreme neural network in didactic repository. Here's an example:
+```
+python melm.py -tr dataset/classification/diabetes_train -ts dataset/classification/diabetes_test -ty 1 -nh 100 -af dilation -v
+```
+-    In the console, use the extreme neural network in a real repository. Here's an example:
+```
+python melm.py -tall dataset/classification/Antivirus_Dataset_PE32_Citadel_mELM_format.csv -ty 1 -nh 500 -af dilation -v
+```
