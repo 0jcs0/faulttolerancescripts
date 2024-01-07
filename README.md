@@ -55,3 +55,15 @@ pip install berserker_resolver
 ```
 python FFanalyse.py -d servicos.sds.pe.gov.br
 ```
+
+## Feature Extraction
+
+
+The extraction should catalogue the number of IP addresses linked to the audited domain. Server mirroring is a practice used by both legitimate and illegitimate servers. This observation is particularly relevant. Distributed denial of service attacks can coordinate multiple servers in a synchronized manner. This coordination can be exploited to promote industrial sabotage. It poses a significant threat to the integrity and operation of the target server. A thorough understanding of IP address characteristics contributes to cyber security. It also highlights the need for preventative strategies to counter potential coordinated attacks.
+Figure \ref{fig:12_2} shows that a domain can be linked to _n_ different servers with the same replicated content. 
+
+.. image:: Images/DiscussionComponentEditor.png
+  :width: 450
+  :alt: A domain can be linked to _n_ different servers with the same replicated content. 
+
+Figure 2.: A domain can be linked to _n_ different servers with the same replicated content. 
