@@ -25,4 +25,5 @@ We developed scripts to examine the number of servers at each police station.
 ### Installation and handling of auxiliary libraries:
 
 -	In the console, install the _dnspython_ library responsible for requesting DNS servers.
+  
 ```  pip install dnspython  ```
