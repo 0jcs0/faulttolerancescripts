@@ -2,7 +2,8 @@
 
 # Cite Us
 ```
-Development of an Ontology to Address the Phishing Technique in Computer Crime: A contribution to Public Security Security
+Development of an Ontology to Address the Phishing Technique in
+Computer Crime: A contribution to Public Security Security
 ```
 
 # Theoretical background 
@@ -24,4 +25,4 @@ We developed scripts to examine the number of servers at each police station.
 ### Installation and handling of auxiliary libraries:
 
 -	In the console, install the _dnspython_ library responsible for requesting DNS servers.
-    - ```  pip install dnspython  ```
+```  pip install dnspython  ```
