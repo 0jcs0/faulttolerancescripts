@@ -28,3 +28,26 @@ We developed scripts to examine the number of servers at each police station.
 ```  
 pip install dnspython
 ```
+
+-	In the console, install the _pygeoip_ library responsible for detecting the geolocation of an IP address..
+```  
+pip install pygeoip
+```
+
+-	Install the _mgrs_ library in the console. It detects the geolocation of an IP address using MGRS, the Military Grid Reference System. MGRS was developed by the NATO military. The benefit of MGRS is that it allows grid designation of **a geographic point below one square metre**.
+```  
+pip install mgrs
+```
+
+-	Install the _pytz_ library in the console. The library calculates the time zone of a given region where the IP address is located.
+```  
+pip install pytz
+```
+
+-	In the console, install the _berserker_resolver_ library. It determines all the IP addresses linked to a given domain.
+```  
+pip install berserker_resolver
+```
+
+
+
