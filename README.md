@@ -49,5 +49,9 @@ pip install pytz
 pip install berserker_resolver
 ```
 
+### Parameter to use the authorial script.
 
-
+-	In the console, to analyse any domain:
+```
+python FFanalyse.py -d servicos.sds.pe.gov.br
+```
