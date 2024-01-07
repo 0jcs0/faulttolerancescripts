@@ -65,5 +65,6 @@ The extraction should catalogue the number of IP addresses linked to the audited
 Figure \ref{fig:12_2} shows that a domain can be linked to _n_ different servers with the same replicated content. 
 
 ![A domain can be linked to _n_ different servers with the same replicated content](https://github.com/0jcs0/faulttolerancescripts/blob/main/Images/2.png)
+</center>
 
 Figure 2.: A domain can be linked to _n_ different servers with the same replicated content. 
