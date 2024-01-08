@@ -138,4 +138,10 @@ Figure 5 illustrates the MGRS coordinates.
 
 **Figure 5**: Illustration of the MGRS coordinates.
 
+Our theoretical foundation and scripts draw inspiration from the research conducted by STALMA in 2011
+```
+B. STALMANS, E.; IRWIN. A framework for dns based detection and mitigation of malware
+infections on a network. IEEE Information Security South Africa (ISSA), 2011.
+```
+
 
