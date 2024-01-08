@@ -82,3 +82,16 @@ TTL (Time to Live) is the number of hops packets can make in a computer network 
 We are working on geolocalising IP addresses. This script provides information about IP addresses. It includes mapping for 250 countries. It also includes latitude, longitude and other geoinformation related to an IP address.
 
 ### Timezone
+
+The term "Timezone" refers to the geographical location of the IP address's time zone. In this context, Greenwich Meridian Time (GMT) acts as a central reference point. It represents the zero base value. The assignment of values to each time zone is determined by its distance from GMT.
+Figure 3 illustrates the Greenwich Meridian timezones. 
+
+![Illustration of the Greenwich Meridian timezones](https://github.com/0jcs0/faulttolerancescripts/blob/main/Images/3.png)
+
+</center>
+
+Figure 2.: Illustration of the Greenwich Meridian timezones.
+
+### UTM
+
+### MGRS
