@@ -102,17 +102,27 @@ TTL (Time to Live) is the number of hops packets can make in a computer network 
 
 We are working on geolocalising IP addresses. This script provides information about IP addresses. It includes mapping for 250 countries. It also includes latitude, longitude and other geoinformation related to an IP address.
 
-### Timezone
+### Greenwich Meridian Timezone
 
-The term "Timezone" refers to the geographical location of the IP address's time zone. In this context, Greenwich Meridian Time (GMT) acts as a central reference point. It represents the zero base value. The assignment of values to each time zone is determined by its distance from GMT.
+The term "Timezone" refers to the geographical location of the IP address's time zone. In this context, GMT (Greenwich Meridian Time)  acts as a central reference point. It represents the zero base value. The assignment of values to each time zone is determined by its distance from GMT.
 Figure 3 illustrates the Greenwich Meridian timezones. 
 
 ![Illustration of the Greenwich Meridian timezones](https://github.com/0jcs0/faulttolerancescripts/blob/main/Images/3.png)
 
 </center>
 
-Figure 2.: Illustration of the Greenwich Meridian timezones.
+Figure 3.: Illustration of the Greenwich Meridian timezones.
 
-### UTM
+### UTM (Universal Transverse Mercator)
+
+The UTM (Universal Transverse Mercator) coordinate system offers an alternative to the traditional ellipsoidal grid model of the Earth. This system is designed to simplify cartographic representation. It divides the Earth's surface into sixty distinct zones. Each zone is identified by a numerical value indicating its position along the globe. It is followed by an alphabetical character that provides an additional reference. This zonal approach to the UTM simplifies spatial representation. The particularities and functionalities of the UTM system highlight its relevance in practical applications. These applications demand precision and efficiency in spatial representation and localisation.
+
+Figure 4 illustrates the UTM timezones. 
+
+![Illustration of the Greenwich Meridian timezones](https://github.com/0jcs0/faulttolerancescripts/blob/main/Images/4.png)
+
+</center>
+
+Figure 4.: Illustration of the UTM timezones.
 
 ### MGRS
