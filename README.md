@@ -21,7 +21,7 @@ If one server stops working, the others will continue to provide the same servic
 We developed scripts to examine the number of servers at each police station.
 
 ![Illustrated operation of the DNS protocol](https://github.com/0jcs0/faulttolerancescripts/blob/main/Images/1.png)
-Figure 1.: Illustrated operation of the DNS protocol. 
+Figure 1: Illustrated operation of the DNS protocol. 
 
 ## Follow the instructions:
 ### Installation and handling of auxiliary libraries:
@@ -91,7 +91,7 @@ Figure 2 shows that a domain can be linked to _n_ multiple servers with the same
 
 </center>
 
-Figure 2.: A domain can be linked to _n_ different servers with the same replicated content. 
+Figure 2: A domain can be linked to _n_ different servers with the same replicated content. 
 
 ### TTL(Time to Live)
 
@@ -110,18 +110,29 @@ Figure 3 illustrates the Greenwich Meridian timezones.
 
 </center>
 
-Figure 3.: Illustration of the Greenwich Meridian timezones.
+Figure 3: Illustration of the Greenwich Meridian timezones.
 
 ### UTM (Universal Transverse Mercator)
 
-The UTM (Universal Transverse Mercator) coordinate system offers an alternative to the traditional ellipsoidal grid model of the Earth. This system is designed to simplify cartographic representation. It divides the Earth's surface into sixty distinct zones. Each zone is identified by a numerical value indicating its position along the globe. It is followed by an alphabetical character that provides an additional reference. This zonal approach to the UTM simplifies spatial representation. The particularities and functionalities of the UTM system highlight its relevance in practical applications. These applications demand precision and efficiency in spatial representation and localisation.
+The UTM (Universal Transverse Mercator) c offers an alternative to the traditional ellipsoidal grid model of the Earth. This system is designed to simplify cartographic representation. It divides the Earth's surface into sixty distinct zones. Each zone is identified by a numerical value indicating its position along the globe. It is followed by an alphabetical character that provides an additional reference. This zonal approach to the UTM simplifies spatial representation. The particularities and functionalities of the UTM system highlight its relevance in practical applications. These applications demand precision and efficiency in spatial representation and localisation.
 
 Figure 4 illustrates the UTM timezones. 
 
-![Illustration of the Greenwich Meridian timezones](https://github.com/0jcs0/faulttolerancescripts/blob/main/Images/4.png)
+![Illustration of the UTM timezones](https://github.com/0jcs0/faulttolerancescripts/blob/main/Images/4.png)
 
 </center>
 
-Figure 4.: Illustration of the UTM timezones.
+Figure 4: Illustration of the UTM timezones.
 
 ### MGRS
+
+The MGRS (Military Grid Reference System) was designed to establish an efficient standard for geo-coordination. The NATO military developed the MGRS. It has a significant benefit. It can assign a grid to a geographical point with an accuracy of less than one square metre.
+Figure 5 illustrates the MGRS coordinates. 
+
+![Illustration of the MGRS coordinates](https://github.com/0jcs0/faulttolerancescripts/blob/main/Images/5.png)
+
+</center>
+
+Figure 5: Illustration of the MGRS coordinates.
+
+
