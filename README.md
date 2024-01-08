@@ -53,11 +53,30 @@ pip install berserker_resolver
 
 ### Parameter to use the authorial script.
 
--	In the console, to analyse any domain:
+- In the console, to analyse the virtual police stations in the states of; Alagoas, Bahia, Piauí, Rio Grande Do Norte and Sergipe.
 ```
-python FFanalyse.py -d servicos.sds.pe.gov.br
+python FFanalyse.py -d delegaciavirtual.sinesp.gov.br 
 ```
 
+- In the console, to analyse the virtual police stations of Pernambuco state.
+```
+python FFanalyse.py -d servicos.sds.pe.gov.br > Pernambuco.txt
+```
+
+- In the console, to analyse the virtual police stations of Paraíba state.
+```
+python FFanalyse.py -d delegaciaonline.pb.gov.br 
+```
+
+- In the console, to analyse the virtual police stations of Ceará state.
+```
+python FFanalyse.py -d www.delegaciaeletronica.ce.gov.br
+```
+
+- In the console, to analyse the virtual police stations of Maranhão state.
+```
+python FFanalyse.py -d delegaciaonline.policiacivil.ma.gov.br
+```
 ## Feature Extraction
 
 
