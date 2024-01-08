@@ -62,7 +62,7 @@ python FFanalyse.py -d delegaciavirtual.sinesp.gov.br
 
 - In the console, to analyse the virtual police stations of Pernambuco state.
 ```
-python FFanalyse.py -d servicos.sds.pe.gov.br > Pernambuco.txt
+python FFanalyse.py -d servicos.sds.pe.gov.br
 ```
 
 - In the console, to analyse the virtual police stations of Paraíba state.
