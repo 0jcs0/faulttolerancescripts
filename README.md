@@ -62,10 +62,23 @@ python FFanalyse.py -d servicos.sds.pe.gov.br
 
 
 The extraction should catalogue the number of IP addresses linked to the audited domain. Server mirroring is a practice used by both legitimate and illegitimate servers. This observation is particularly relevant. Distributed denial of service attacks can coordinate multiple servers in a synchronized manner. This coordination can be exploited to promote industrial sabotage. It poses a significant threat to the integrity and operation of the target server. A thorough understanding of IP address characteristics contributes to cyber security. It also highlights the need for preventative strategies to counter potential coordinated attacks.
-Figure \ref{fig:12_2} shows that a domain can be linked to _n_ different servers with the same replicated content. 
+
+### Domain with multiple servers
+
+Figure 2 shows that a domain can be linked to _n_ multiple servers with the same replicated content. 
 
 ![A domain can be linked to _n_ different servers with the same replicated content](https://github.com/0jcs0/faulttolerancescripts/blob/main/Images/2.png)
 
 </center>
 
 Figure 2.: A domain can be linked to _n_ different servers with the same replicated content. 
+
+### TTL(Time to Live)
+
+TTL (Time to Live) is the number of hops packets can make in a computer network before being discarded. It refers to the number of jumps between machines. The TTL value and service efficiency have an inverse relationship. This is an important consideration. A higher TTL indicates that packets may take longer to travel across the network. This suggests a possible slowdown in the service. This slowness can be attributed to the absence of effective fault tolerance mechanisms. Understanding the impact of TTL provides insights into the importance of proactive measures. This is to optimize the performance and resilience of the network infrastructure. Services concentrated on a single IP address can have a high TTL. Consequently, they can have a slow response time.
+
+### Geolocalisation of IP address(es)
+
+We are working on geolocalising IP addresses. This script provides information about IP addresses. It includes mapping for 250 countries. It also includes latitude, longitude and other geoinformation related to an IP address.
+
+### Timezone
