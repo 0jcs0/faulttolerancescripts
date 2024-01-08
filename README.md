@@ -21,7 +21,7 @@ If one server stops working, the others will continue to provide the same servic
 We developed scripts to examine the number of servers at each police station.
 
 ![Illustrated operation of the DNS protocol](https://github.com/0jcs0/faulttolerancescripts/blob/main/Images/1.png)
-Figure 1: Illustrated operation of the DNS protocol. 
+**Figure 1**: Illustrated operation of the DNS protocol. 
 
 ## Follow the instructions:
 ### Installation and handling of auxiliary libraries:
@@ -91,7 +91,7 @@ Figure 2 shows that a domain can be linked to _n_ multiple servers with the same
 
 </center>
 
-Figure 2: A domain can be linked to _n_ different servers with the same replicated content. 
+**Figure 2**: A domain can be linked to _n_ different servers with the same replicated content. 
 
 ### TTL(Time to Live)
 
@@ -110,7 +110,7 @@ Figure 3 illustrates the Greenwich Meridian timezones.
 
 </center>
 
-Figure 3: Illustration of the Greenwich Meridian timezones.
+**Figure 3**: Illustration of the Greenwich Meridian timezones.
 
 ### UTM (Universal Transverse Mercator)
 
@@ -122,7 +122,7 @@ Figure 4 illustrates the UTM timezones.
 
 </center>
 
-Figure 4: Illustration of the UTM timezones.
+**Figure 4**: Illustration of the UTM timezones.
 
 ### MGRS
 
@@ -133,6 +133,6 @@ Figure 5 illustrates the MGRS coordinates.
 
 </center>
 
-Figure 5: Illustration of the MGRS coordinates.
+**Figure 5**: Illustration of the MGRS coordinates.
 
 
