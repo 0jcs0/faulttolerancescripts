@@ -53,6 +53,8 @@ pip install berserker_resolver
 
 ### Parameter to use the authorial script.
 
+We developed scripts to examine the number of servers at each police station. The findings reveal that the State Technology Agencies administer the Virtual Police Stations. The states with these stations include Ceará, Paraíba, Pernambuco, and Maranhão. These precincts face delays, as noted. This is due to insufficient load balancing and lack of data replication. This increases the risk of service downtime due to agency failures. Also, these systems lack data replication. This makes them more susceptible to denial of service attacks. Yet, police stations in Alagoas, Bahia, Piauí, Rio Grande do Norte, and Sergipe use Service Data Process (SERPRO) in Brasilia. They had no delays and have data replication.  
+
 - In the console, to analyse the virtual police stations in the states of; Alagoas, Bahia, Piauí, Rio Grande Do Norte and Sergipe.
 ```
 python FFanalyse.py -d delegaciavirtual.sinesp.gov.br 
